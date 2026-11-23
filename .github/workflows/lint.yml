@@ -1,0 +1,18 @@
+# what is lint: whenever some one changes our code 
+# the linterwill check if the syntax, format,indentation,is correct or not
+name: Auto linter
+
+on:
+  push:
+    paths: "*.py"
+
+jobs:
+  code:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v7
+   #this step will install lintner
+      - name: Install linter
+        run: pip install ruff
+        
