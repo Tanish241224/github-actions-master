@@ -8,22 +8,22 @@ jobs:
      runs-on: ubuntu-latest
      steps:
        - name: clone the repo
-         run: echo"cloning code"
+         run: echo "cloning code"
    build:
       runs-on: ubuntu-latest
       steps:
         - name: building using docker
-          run: echo"building code using docker"
+          run: echo "building code using docker"
    test:
       runs-on: ubuntu-latest
       steps:
         - name: running test case
-          run: echo"testing the app"
+          run: echo "testing the app"
    deploy:
      runs-on: ubuntu-latest
      steps:
        - name: deploy on k8s
-         run: echo"deploy in k8s"
+         run: echo "deploy in k8s"
          
     
       
