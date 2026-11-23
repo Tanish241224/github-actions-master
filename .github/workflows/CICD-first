@@ -1,3 +1,0 @@
-name: CICD first
-on:
-  workflow
