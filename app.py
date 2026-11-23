@@ -1,5 +1,5 @@
 #This code is form shubahm github
-#This is flask app
+#This is flask appp
 from flask import Flask, render_template
 app = Flask(__name__)
 
