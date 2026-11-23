@@ -15,4 +15,8 @@ jobs:
    #this step will install lintner
       - name: Install linter
         run: pip install ruff
+
+  # this step will run lintner
+      - name: check the files for linting
+        run: ruff check .
         
